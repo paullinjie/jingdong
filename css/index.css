@@ -1,0 +1,373 @@
+.container {
+  position: relative;
+  min-width: 320px;
+  max-width: 640px;
+  margin: 0 auto;
+  background: #f3f3f3;
+}
+.header {
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  width: 6.4rem;
+  height: 0.32rem;
+  padding: 0.02rem 0;
+  font-size: 0.14rem;
+}
+.header input {
+  width: 5.8rem;
+  height: 0.28rem;
+  border-radius: 0.14rem;
+  border: none;
+  text-indent: 0.58rem;
+  font-size: 0.12rem;
+  margin-left: 0.1rem;
+  background: url('../images/header/jd.png') no-repeat 0.1rem center / 0.2rem 0.14rem, #fff url('../images/header/search.png') no-repeat 0.38rem center / 0.14rem 0.14rem;
+}
+.header a {
+  position: absolute;
+  right: 0.1rem;
+  color: #fff;
+  line-height: 0.32rem;
+}
+.swiper-container {
+  width: 100%;
+}
+.swiper-container img {
+  width: 6.4rem;
+}
+.banner-ad {
+  width: 100%;
+  height: 1.644rem;
+}
+.banner-ad img {
+  width: 6.4rem;
+}
+/***************************导航购物篮 开始****************************/
+.j-shop {
+  display: flex;
+  width: 100%;
+  height: 2.54rem;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.j-shop a {
+  width: 20%;
+  font-size: 0.22rem;
+}
+.j-shop a img {
+  width: 0.58rem;
+  margin-top: 0.26rem;
+}
+/***************************导航购物篮 结束****************************/
+/***************************轮播图2上方 开始****************************/
+.swiper2-top {
+  zoom: 1;
+  width: 100%;
+  height: 0.34rem;
+  background: #fff;
+  margin-top: 0.1rem;
+  line-height: 0.34rem;
+}
+.swiper2-top:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.swiper2-top img {
+  width: 0.69rem;
+  vertical-align: middle;
+}
+.swiper2-top span {
+  vertical-align: middle;
+  font: 0.12rem '';
+  margin-right: 0.03rem;
+}
+.swiper2-top span:nth-of-type(1) {
+  font: bold 0.12rem '';
+}
+.swiper2-top span:nth-of-type(2),
+.swiper2-top span:nth-of-type(3),
+.swiper2-top span:nth-of-type(4) {
+  display: inline-block;
+  width: 0.19rem;
+  height: 0.17rem;
+  border: 1px solid #ddd;
+  text-align: center;
+  margin-left: -0.02rem;
+}
+.swiper2-top .t-right {
+  float: right;
+  width: 1.5rem;
+  height: 100%;
+  color: red;
+}
+.swiper2-top .t-right img {
+  width: 0.11rem;
+}
+/***************************轮播图2上方 结束****************************/
+/***************************轮播图2上方 开始****************************/
+#swiper2 {
+  width: 100%;
+  height: 2.29rem;
+  background: #fff;
+  text-align: center;
+  border-bottom: 1px solid #eee;
+}
+#swiper2 img {
+  width: 1.764rem;
+  margin-left: 0.1rem;
+}
+#swiper2 p {
+  color: red;
+  font: bold 0.14rem '';
+  margin-top: 0.1rem;
+}
+#swiper2 del {
+  font-size: 0.12rem;
+  color: #999;
+}
+#swiper2 .s-last p {
+  font: 0.18rem '';
+  color: #666;
+  margin-top: 0.76rem;
+}
+#swiper2 .s-last img {
+  width: 0.3rem;
+  margin-top: 0.2rem;
+}
+/***************************轮播图2上方 结束****************************/
+/***************************轮播图2下方 开始****************************/
+.swiper2-bottom {
+  display: flex;
+  width: 100%;
+  height: 3.76rem;
+  flex-wrap: wrap;
+  background: #fff;
+  font: 0.2rem '';
+}
+.swiper2-bottom a {
+  position: relative;
+  width: 50%;
+  height: 50%;
+  border-bottom: 1px solid #eee;
+  border-right: 1px solid #eee;
+  box-sizing: border-box;
+}
+.swiper2-bottom a:nth-child(2),
+.swiper2-bottom a:nth-child(4) {
+  border-right: none;
+}
+.swiper2-bottom a img {
+  position: absolute;
+  right: 0.14rem;
+  bottom: 0.14rem;
+  width: 1.38rem;
+}
+.swiper2-bottom a h2 {
+  margin: 0.12rem 0 0 0.12rem;
+}
+.swiper2-bottom a p {
+  color: #999;
+  margin-left: 0.12rem;
+}
+/***************************轮播图2下方 结束****************************/
+/***************************共同头部 开始****************************/
+.same-header {
+  width: 100%;
+  height: 0.66rem;
+  background: url('../images/part2/shoppinr_bg.png') no-repeat;
+  text-align: center;
+  line-height: 0.66rem;
+}
+.same-header img {
+  height: 0.485rem;
+}
+/***************************共同头部 结束****************************/
+/***************************爱生活栏目 开始****************************/
+.j-living {
+  display: flex;
+  width: 100%;
+  height: 2.1rem;
+  background: #fff;
+}
+.j-living a {
+  width: 25%;
+  box-sizing: border-box;
+  border-right: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  font: 0.2rem '';
+}
+.j-living a:nth-child(4) {
+  border-right: none;
+}
+.j-living a h2 {
+  margin: 0.12rem 0 0 0.12rem;
+}
+.j-living a p {
+  color: #999;
+  margin-left: 0.12rem;
+}
+.j-living a img {
+  width: 1.4rem;
+  height: 1.2rem;
+  margin: 0.1rem 0 0 0.14rem;
+}
+/***************************共同头部 结束****************************/
+/***************************轮播3/4 开始****************************/
+#swiper3,
+#swiper4 {
+  width: 100%;
+  height: 1.47rem;
+  margin-top: 0.1rem;
+}
+#swiper3 img,
+#swiper4 img {
+  width: 100%;
+}
+/***************************轮播3/4 结束****************************/
+/***************************为您推荐 开始****************************/
+.j-menu {
+  width: 6.3rem;
+  height: 0.14rem;
+  border-top: 1px solid #ccc;
+  margin: 0.1rem 0.05rem 0;
+  text-align: center;
+  line-height: 0.14rem;
+}
+.j-menu > div {
+  position: relative;
+  left: 2.65rem;
+  top: -0.1rem;
+  width: 1rem;
+  height: 0.14rem;
+  background: #f3f3f3;
+}
+.j-menu img {
+  width: 0.13rem;
+  vertical-align: middle;
+}
+.j-menu span {
+  font: 0.14rem '';
+  vertical-align: middle;
+  margin-left: 0.04rem;
+}
+.jd-like {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.jd-like a {
+  width: 49.5%;
+  height: 4.6rem;
+  margin-bottom: 0.06rem;
+  background: #fff;
+}
+.jd-like a img {
+  width: 3.16rem;
+}
+.jd-like a p {
+  margin: 0.04rem 0.04rem 0;
+}
+.jd-like a p:nth-of-type(2) {
+  color: red;
+  font-size: 0.16rem;
+}
+.jd-like a p:nth-of-type(3) {
+  position: relative;
+  font-size: 0.16rem;
+}
+.jd-like a p span {
+  position: absolute;
+  font-size: 0.12rem;
+  color: #999;
+  margin-left: 0.1rem;
+}
+.jd-like a p span:nth-of-type(2) {
+  height: 0.22rem;
+  border: 1px solid #ddd;
+  right: 0.1rem;
+  text-align: center;
+  line-height: 0.22rem;
+}
+.like-bottom {
+  width: 100%;
+  height: 0.32rem;
+  color: #666;
+  text-align: center;
+  line-height: 0.32rem;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+/***************************为您推荐 结束****************************/
+/***************************底部栏 开始****************************/
+.footer {
+  width: 6.4rem;
+  height: 2.13rem;
+  background: #f7f7f7;
+}
+.footer .footer1 {
+  height: 0.53rem;
+  font: 0.12rem/0.53rem '';
+  color: #aaa;
+  text-align: center;
+}
+.footer .footer1 a {
+  margin: 0 0.2rem;
+}
+.footer .footer2 {
+  display: flex;
+  height: 0.69rem;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 0 1.96rem;
+}
+.footer .footer2 a {
+  width: 1.06rem;
+}
+.footer .footer2 a p {
+  position: relative;
+  left: -0.03rem;
+  color: #999;
+}
+.footer .footer2 .pic {
+  width: 0.33rem;
+  height: 0.38rem;
+}
+.footer .footer2 .pic1 {
+  background: url('../images/footer/1.png') no-repeat center / cover;
+}
+.footer .footer2 .pic2 {
+  background: url('../images/footer/2.png') no-repeat -0.02rem -0.03rem / cover;
+}
+.footer .footer2 .pic3 {
+  background: url('../images/footer/3.png') no-repeat center / cover;
+}
+.footer .footer3 {
+  height: 0.44rem;
+  font: 0.12rem/0.44rem;
+  text-align: center;
+  color: #aaa;
+}
+/***************************底部栏 结束****************************/
+/***************************底部导航栏 开始****************************/
+.jd-bottom {
+  position: fixed;
+  bottom: 0;
+  z-index: 999;
+  display: flex;
+  width: 6.4rem;
+  height: 0.54rem;
+  border-top: 2px solid #eee;
+  background: #fff;
+}
+.jd-bottom a {
+  flex: 1;
+  text-align: center;
+}
+.jd-bottom a img {
+  width: 0.7rem;
+  height: 0.54rem;
+}
+/***************************底部导航栏 结束****************************/
